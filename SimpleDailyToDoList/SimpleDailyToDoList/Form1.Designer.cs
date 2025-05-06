@@ -37,6 +37,8 @@
 			this.WebSite_PIC = new System.Windows.Forms.PictureBox();
 			this.GitHub_PIC = new System.Windows.Forms.PictureBox();
 			this.ToDoList_PNL = new System.Windows.Forms.Panel();
+			this.NotDone_BTN = new System.Windows.Forms.Button();
+			this.DoneTask_BTN = new System.Windows.Forms.Button();
 			this.label1 = new System.Windows.Forms.Label();
 			this.DoneTasks_LTV = new System.Windows.Forms.ListView();
 			this.NewTaskTitle_LBL = new System.Windows.Forms.Label();
@@ -46,7 +48,6 @@
 			this.Clear_BTN = new System.Windows.Forms.Button();
 			this.Task_TB = new System.Windows.Forms.TextBox();
 			this.Task_LBL = new System.Windows.Forms.Label();
-			this.DoneTask_BTN = new System.Windows.Forms.Button();
 			this.Header_PNL.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.Footer_PNL.SuspendLayout();
@@ -70,7 +71,7 @@
 			// 
 			this.TitlePartTwo_LBL.AutoSize = true;
 			this.TitlePartTwo_LBL.Font = new System.Drawing.Font("Microsoft YaHei UI", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
-			this.TitlePartTwo_LBL.Location = new System.Drawing.Point(373, 35);
+			this.TitlePartTwo_LBL.Location = new System.Drawing.Point(368, 35);
 			this.TitlePartTwo_LBL.Name = "TitlePartTwo_LBL";
 			this.TitlePartTwo_LBL.Size = new System.Drawing.Size(239, 52);
 			this.TitlePartTwo_LBL.TabIndex = 2;
@@ -80,7 +81,7 @@
 			// 
 			this.TitlePartOne_LBL.AutoSize = true;
 			this.TitlePartOne_LBL.Font = new System.Drawing.Font("Microsoft YaHei UI", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
-			this.TitlePartOne_LBL.Location = new System.Drawing.Point(128, 35);
+			this.TitlePartOne_LBL.Location = new System.Drawing.Point(123, 35);
 			this.TitlePartOne_LBL.Name = "TitlePartOne_LBL";
 			this.TitlePartOne_LBL.Size = new System.Drawing.Size(143, 52);
 			this.TitlePartOne_LBL.TabIndex = 1;
@@ -89,7 +90,7 @@
 			// pictureBox1
 			// 
 			this.pictureBox1.Image = global::SimpleDailyToDoList.Properties.Resources.icons8_todo_list_90px;
-			this.pictureBox1.Location = new System.Drawing.Point(277, 14);
+			this.pictureBox1.Location = new System.Drawing.Point(272, 14);
 			this.pictureBox1.Name = "pictureBox1";
 			this.pictureBox1.Size = new System.Drawing.Size(90, 90);
 			this.pictureBox1.TabIndex = 0;
@@ -109,7 +110,7 @@
 			// 
 			this.WebSite_PIC.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.WebSite_PIC.Image = global::SimpleDailyToDoList.Properties.Resources.icons8_website_30px;
-			this.WebSite_PIC.Location = new System.Drawing.Point(337, 5);
+			this.WebSite_PIC.Location = new System.Drawing.Point(338, 5);
 			this.WebSite_PIC.Name = "WebSite_PIC";
 			this.WebSite_PIC.Size = new System.Drawing.Size(30, 30);
 			this.WebSite_PIC.TabIndex = 4;
@@ -120,7 +121,7 @@
 			// 
 			this.GitHub_PIC.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.GitHub_PIC.Image = global::SimpleDailyToDoList.Properties.Resources.icons8_github_30px;
-			this.GitHub_PIC.Location = new System.Drawing.Point(301, 5);
+			this.GitHub_PIC.Location = new System.Drawing.Point(302, 5);
 			this.GitHub_PIC.Name = "GitHub_PIC";
 			this.GitHub_PIC.Size = new System.Drawing.Size(30, 30);
 			this.GitHub_PIC.TabIndex = 3;
@@ -130,6 +131,7 @@
 			// ToDoList_PNL
 			// 
 			this.ToDoList_PNL.BackColor = System.Drawing.SystemColors.ActiveBorder;
+			this.ToDoList_PNL.Controls.Add(this.NotDone_BTN);
 			this.ToDoList_PNL.Controls.Add(this.DoneTask_BTN);
 			this.ToDoList_PNL.Controls.Add(this.label1);
 			this.ToDoList_PNL.Controls.Add(this.DoneTasks_LTV);
@@ -145,11 +147,40 @@
 			this.ToDoList_PNL.Size = new System.Drawing.Size(679, 377);
 			this.ToDoList_PNL.TabIndex = 2;
 			// 
+			// NotDone_BTN
+			// 
+			this.NotDone_BTN.BackColor = System.Drawing.Color.SandyBrown;
+			this.NotDone_BTN.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.NotDone_BTN.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
+			this.NotDone_BTN.ForeColor = System.Drawing.Color.Black;
+			this.NotDone_BTN.Location = new System.Drawing.Point(550, 341);
+			this.NotDone_BTN.Name = "NotDone_BTN";
+			this.NotDone_BTN.Size = new System.Drawing.Size(125, 25);
+			this.NotDone_BTN.TabIndex = 10;
+			this.NotDone_BTN.Text = "Not Done!";
+			this.NotDone_BTN.UseVisualStyleBackColor = false;
+			this.NotDone_BTN.Click += new System.EventHandler(this.NotDone_BTN_Click);
+			// 
+			// DoneTask_BTN
+			// 
+			this.DoneTask_BTN.BackColor = System.Drawing.Color.LimeGreen;
+			this.DoneTask_BTN.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.DoneTask_BTN.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
+			this.DoneTask_BTN.ForeColor = System.Drawing.Color.Black;
+			this.DoneTask_BTN.Location = new System.Drawing.Point(163, 36);
+			this.DoneTask_BTN.Name = "DoneTask_BTN";
+			this.DoneTask_BTN.Size = new System.Drawing.Size(125, 25);
+			this.DoneTask_BTN.TabIndex = 9;
+			this.DoneTask_BTN.Text = "Done";
+			this.DoneTask_BTN.UseVisualStyleBackColor = false;
+			this.DoneTask_BTN.Click += new System.EventHandler(this.DoneTask_BTN_Click);
+			// 
 			// label1
 			// 
 			this.label1.AutoSize = true;
+			this.label1.BackColor = System.Drawing.SystemColors.ButtonFace;
 			this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
-			this.label1.Location = new System.Drawing.Point(30, 222);
+			this.label1.Location = new System.Drawing.Point(12, 190);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(82, 17);
 			this.label1.TabIndex = 8;
@@ -160,17 +191,19 @@
 			this.DoneTasks_LTV.BackColor = System.Drawing.Color.DimGray;
 			this.DoneTasks_LTV.ForeColor = System.Drawing.SystemColors.Info;
 			this.DoneTasks_LTV.HideSelection = false;
-			this.DoneTasks_LTV.Location = new System.Drawing.Point(33, 240);
+			this.DoneTasks_LTV.Location = new System.Drawing.Point(10, 211);
 			this.DoneTasks_LTV.Name = "DoneTasks_LTV";
-			this.DoneTasks_LTV.Size = new System.Drawing.Size(623, 127);
+			this.DoneTasks_LTV.Size = new System.Drawing.Size(665, 127);
 			this.DoneTasks_LTV.TabIndex = 7;
 			this.DoneTasks_LTV.UseCompatibleStateImageBehavior = false;
 			// 
 			// NewTaskTitle_LBL
 			// 
 			this.NewTaskTitle_LBL.AutoSize = true;
+			this.NewTaskTitle_LBL.BackColor = System.Drawing.SystemColors.ButtonFace;
 			this.NewTaskTitle_LBL.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
-			this.NewTaskTitle_LBL.Location = new System.Drawing.Point(30, 83);
+			this.NewTaskTitle_LBL.ForeColor = System.Drawing.SystemColors.ControlText;
+			this.NewTaskTitle_LBL.Location = new System.Drawing.Point(12, 50);
 			this.NewTaskTitle_LBL.Name = "NewTaskTitle_LBL";
 			this.NewTaskTitle_LBL.Size = new System.Drawing.Size(76, 17);
 			this.NewTaskTitle_LBL.TabIndex = 6;
@@ -180,9 +213,9 @@
 			// 
 			this.NewTasks_LTV.BackColor = System.Drawing.Color.White;
 			this.NewTasks_LTV.HideSelection = false;
-			this.NewTasks_LTV.Location = new System.Drawing.Point(33, 103);
+			this.NewTasks_LTV.Location = new System.Drawing.Point(10, 70);
 			this.NewTasks_LTV.Name = "NewTasks_LTV";
-			this.NewTasks_LTV.Size = new System.Drawing.Size(627, 116);
+			this.NewTasks_LTV.Size = new System.Drawing.Size(665, 116);
 			this.NewTasks_LTV.TabIndex = 5;
 			this.NewTasks_LTV.UseCompatibleStateImageBehavior = false;
 			// 
@@ -191,7 +224,7 @@
 			this.Add_BTN.BackColor = System.Drawing.Color.DeepSkyBlue;
 			this.Add_BTN.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.Add_BTN.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
-			this.Add_BTN.Location = new System.Drawing.Point(450, 55);
+			this.Add_BTN.Location = new System.Drawing.Point(550, 36);
 			this.Add_BTN.Name = "Add_BTN";
 			this.Add_BTN.Size = new System.Drawing.Size(125, 25);
 			this.Add_BTN.TabIndex = 4;
@@ -205,19 +238,20 @@
 			this.Remove_BTN.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.Remove_BTN.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
 			this.Remove_BTN.ForeColor = System.Drawing.Color.White;
-			this.Remove_BTN.Location = new System.Drawing.Point(188, 55);
+			this.Remove_BTN.Location = new System.Drawing.Point(291, 36);
 			this.Remove_BTN.Name = "Remove_BTN";
 			this.Remove_BTN.Size = new System.Drawing.Size(125, 25);
 			this.Remove_BTN.TabIndex = 3;
 			this.Remove_BTN.Text = "Remove Task";
 			this.Remove_BTN.UseVisualStyleBackColor = false;
+			this.Remove_BTN.Click += new System.EventHandler(this.Remove_BTN_Click);
 			// 
 			// Clear_BTN
 			// 
 			this.Clear_BTN.BackColor = System.Drawing.Color.Orange;
 			this.Clear_BTN.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.Clear_BTN.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
-			this.Clear_BTN.Location = new System.Drawing.Point(319, 55);
+			this.Clear_BTN.Location = new System.Drawing.Point(421, 36);
 			this.Clear_BTN.Name = "Clear_BTN";
 			this.Clear_BTN.Size = new System.Drawing.Size(125, 25);
 			this.Clear_BTN.TabIndex = 2;
@@ -228,9 +262,9 @@
 			// Task_TB
 			// 
 			this.Task_TB.BackColor = System.Drawing.SystemColors.Info;
-			this.Task_TB.Location = new System.Drawing.Point(188, 26);
+			this.Task_TB.Location = new System.Drawing.Point(165, 7);
 			this.Task_TB.Name = "Task_TB";
-			this.Task_TB.Size = new System.Drawing.Size(387, 23);
+			this.Task_TB.Size = new System.Drawing.Size(511, 23);
 			this.Task_TB.TabIndex = 1;
 			this.Task_TB.Text = "1-Write A Code....";
 			// 
@@ -239,25 +273,11 @@
 			this.Task_LBL.AutoSize = true;
 			this.Task_LBL.BackColor = System.Drawing.SystemColors.ButtonHighlight;
 			this.Task_LBL.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
-			this.Task_LBL.Location = new System.Drawing.Point(30, 29);
+			this.Task_LBL.Location = new System.Drawing.Point(7, 7);
 			this.Task_LBL.Name = "Task_LBL";
 			this.Task_LBL.Size = new System.Drawing.Size(152, 17);
 			this.Task_LBL.TabIndex = 0;
 			this.Task_LBL.Text = "Write Your Task Today:";
-			// 
-			// DoneTask_BTN
-			// 
-			this.DoneTask_BTN.BackColor = System.Drawing.Color.LimeGreen;
-			this.DoneTask_BTN.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.DoneTask_BTN.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
-			this.DoneTask_BTN.ForeColor = System.Drawing.Color.Black;
-			this.DoneTask_BTN.Location = new System.Drawing.Point(57, 55);
-			this.DoneTask_BTN.Name = "DoneTask_BTN";
-			this.DoneTask_BTN.Size = new System.Drawing.Size(125, 25);
-			this.DoneTask_BTN.TabIndex = 9;
-			this.DoneTask_BTN.Text = "Done";
-			this.DoneTask_BTN.UseVisualStyleBackColor = false;
-			this.DoneTask_BTN.Click += new System.EventHandler(this.DoneTask_BTN_Click);
 			// 
 			// ToDoListDashBoard_FR
 			// 
@@ -307,6 +327,7 @@
 		private System.Windows.Forms.Label NewTaskTitle_LBL;
 		private System.Windows.Forms.ListView NewTasks_LTV;
 		private System.Windows.Forms.Button DoneTask_BTN;
+		private System.Windows.Forms.Button NotDone_BTN;
 	}
 }
 
