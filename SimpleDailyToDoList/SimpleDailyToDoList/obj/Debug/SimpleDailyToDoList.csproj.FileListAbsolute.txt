@@ -1,0 +1,10 @@
+E:\WORKSPACE\SimpleToDoList\SimpleDailyToDoList\SimpleDailyToDoList\bin\Debug\SimpleDailyToDoList.exe.config
+E:\WORKSPACE\SimpleToDoList\SimpleDailyToDoList\SimpleDailyToDoList\bin\Debug\SimpleDailyToDoList.exe
+E:\WORKSPACE\SimpleToDoList\SimpleDailyToDoList\SimpleDailyToDoList\bin\Debug\SimpleDailyToDoList.pdb
+E:\WORKSPACE\SimpleToDoList\SimpleDailyToDoList\SimpleDailyToDoList\obj\Debug\SimpleDailyToDoList.csproj.AssemblyReference.cache
+E:\WORKSPACE\SimpleToDoList\SimpleDailyToDoList\SimpleDailyToDoList\obj\Debug\SimpleDailyToDoList.ToDoListDashBoard_FR.resources
+E:\WORKSPACE\SimpleToDoList\SimpleDailyToDoList\SimpleDailyToDoList\obj\Debug\SimpleDailyToDoList.Properties.Resources.resources
+E:\WORKSPACE\SimpleToDoList\SimpleDailyToDoList\SimpleDailyToDoList\obj\Debug\SimpleDailyToDoList.csproj.GenerateResource.cache
+E:\WORKSPACE\SimpleToDoList\SimpleDailyToDoList\SimpleDailyToDoList\obj\Debug\SimpleDailyToDoList.csproj.CoreCompileInputs.cache
+E:\WORKSPACE\SimpleToDoList\SimpleDailyToDoList\SimpleDailyToDoList\obj\Debug\SimpleDailyToDoList.exe
+E:\WORKSPACE\SimpleToDoList\SimpleDailyToDoList\SimpleDailyToDoList\obj\Debug\SimpleDailyToDoList.pdb
