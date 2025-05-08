@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "E:\\WORKSPACE\\SimpleToDoList\\SimpleDailyToDoList\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F0337E55-FF31-4324-B349-2A42A09B542F}|SimpleDailyToDoList\\SimpleDailyToDoList.csproj|e:\\workspace\\simpletodolist\\simpledailytodolist\\simpledailytodolist\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0337E55-FF31-4324-B349-2A42A09B542F}|SimpleDailyToDoList\\SimpleDailyToDoList.csproj|solutionrelative:simpledailytodolist\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F0337E55-FF31-4324-B349-2A42A09B542F}|SimpleDailyToDoList\\SimpleDailyToDoList.csproj|E:\\WORKSPACE\\SimpleToDoList\\SimpleDailyToDoList\\simpledailytodolist\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F0337E55-FF31-4324-B349-2A42A09B542F}|SimpleDailyToDoList\\SimpleDailyToDoList.csproj|solutionrelative:simpledailytodolist\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0337E55-FF31-4324-B349-2A42A09B542F}|SimpleDailyToDoList\\SimpleDailyToDoList.csproj|E:\\WORKSPACE\\SimpleToDoList\\SimpleDailyToDoList\\simpledailytodolist\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0337E55-FF31-4324-B349-2A42A09B542F}|SimpleDailyToDoList\\SimpleDailyToDoList.csproj|solutionrelative:simpledailytodolist\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0337E55-FF31-4324-B349-2A42A09B542F}|SimpleDailyToDoList\\SimpleDailyToDoList.csproj|E:\\WORKSPACE\\SimpleToDoList\\SimpleDailyToDoList\\simpledailytodolist\\developers documentation\\projectinformation.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{F0337E55-FF31-4324-B349-2A42A09B542F}|SimpleDailyToDoList\\SimpleDailyToDoList.csproj|solutionrelative:simpledailytodolist\\developers documentation\\projectinformation.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,28 +26,39 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "ProjectInformation.md",
+              "DocumentMoniker": "E:\\WORKSPACE\\SimpleToDoList\\SimpleDailyToDoList\\SimpleDailyToDoList\\Developers Documentation\\ProjectInformation.md",
+              "RelativeDocumentMoniker": "SimpleDailyToDoList\\Developers Documentation\\ProjectInformation.md",
+              "ToolTip": "E:\\WORKSPACE\\SimpleToDoList\\SimpleDailyToDoList\\SimpleDailyToDoList\\Developers Documentation\\ProjectInformation.md",
+              "RelativeToolTip": "SimpleDailyToDoList\\Developers Documentation\\ProjectInformation.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-05-06T21:14:38.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "E:\\WORKSPACE\\SimpleToDoList\\SimpleDailyToDoList\\SimpleDailyToDoList\\Form1.cs",
               "RelativeDocumentMoniker": "SimpleDailyToDoList\\Form1.cs",
               "ToolTip": "E:\\WORKSPACE\\SimpleToDoList\\SimpleDailyToDoList\\SimpleDailyToDoList\\Form1.cs",
               "RelativeToolTip": "SimpleDailyToDoList\\Form1.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAD4vzEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T19:31:27.799Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "E:\\WORKSPACE\\SimpleToDoList\\SimpleDailyToDoList\\SimpleDailyToDoList\\Form1.cs",
               "RelativeDocumentMoniker": "SimpleDailyToDoList\\Form1.cs",
               "ToolTip": "E:\\WORKSPACE\\SimpleToDoList\\SimpleDailyToDoList\\SimpleDailyToDoList\\Form1.cs [Design]",
               "RelativeToolTip": "SimpleDailyToDoList\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T19:37:54.585Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-14T19:37:54.585Z"
             }
           ]
         }

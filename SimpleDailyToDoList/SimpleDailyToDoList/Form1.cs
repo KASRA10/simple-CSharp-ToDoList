@@ -31,14 +31,14 @@ namespace SimpleDailyToDoList
 			}
 			else
 			{
-				DialogResult result = MessageBox.Show("Pleas Write A Task. Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+				DialogResult result = MessageBox.Show("Pleas Write A Task. Error: ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 			}
 
 		}
 
 		private void Clear_BTN_Click(object sender, EventArgs e)
 		{
-			NewTasks_LTV.Clear();
+			NewTasks_LTV.Items.Clear();
 			Task_TB.Clear();
 		}
 
