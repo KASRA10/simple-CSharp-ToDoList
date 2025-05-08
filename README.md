@@ -1,5 +1,11 @@
 # Simple C# ToDo List
 
+# Image Preview
+![ListViewToDoListK10](https://github.com/user-attachments/assets/d057e70c-a6fb-4406-a663-7f8a16d5aa77)
+
+# video Preview
+https://github.com/user-attachments/assets/5f06a971-0600-4afa-b41e-4348036b8020
+
 ## Introduction
 Welcome to the Simple C# ToDo List project. This application was developed as a basic and practical exercise in building desktop applications using Windows Forms in C#. Its primary purpose is to help beginners learn how to use the `ListView` control and understand core functionalities like adding, removing, marking tasks as done or not done, and clearing the list.
 
